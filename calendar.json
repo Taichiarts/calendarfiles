@@ -1,15 +1,15 @@
 {
-  "updated": "2026-10-23T16:56:57.170Z",
+  "updated": "2026-10-23T17:12:25.971Z",
   "start": "2026-09-01T07:00:00.000Z",
   "end": "2027-10-01T07:00:00.000Z",
   "calendars": [
     {
-      "name": "admin@gvrtaichiarts.com",
-      "color": "#2A9D8F"
-    },
-    {
       "name": "Holidays in United States",
       "color": "#C9A227"
+    },
+    {
+      "name": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F"
     }
   ],
   "events": [
@@ -32,6 +32,26 @@
       "calendar": "Holidays in United States",
       "color": "#C9A227",
       "location": ""
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2026-10-23T16:30:00.000Z",
+      "end": "2026-10-23T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2026-10-30T16:30:00.000Z",
+      "end": "2026-10-30T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
     },
     {
       "id": "20261031_jg75kt4ps505q4u01pbpictp2o@google.com",
@@ -64,6 +84,16 @@
       "location": ""
     },
     {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2026-11-06T16:30:00.000Z",
+      "end": "2026-11-06T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
       "id": "20261111_74d74gec1qv5j3q0qbuc0nft40@google.com",
       "title": "Veterans Day",
       "start": "2026-11-11T07:00:00.000Z",
@@ -72,6 +102,26 @@
       "calendar": "Holidays in United States",
       "color": "#C9A227",
       "location": ""
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2026-11-13T16:30:00.000Z",
+      "end": "2026-11-13T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2026-11-20T16:30:00.000Z",
+      "end": "2026-11-20T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
     },
     {
       "id": "20261126_1g5us79unrs6ecmqdes63fqi30@google.com",
@@ -94,6 +144,46 @@
       "location": ""
     },
     {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2026-11-27T16:30:00.000Z",
+      "end": "2026-11-27T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2026-12-04T16:30:00.000Z",
+      "end": "2026-12-04T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2026-12-11T16:30:00.000Z",
+      "end": "2026-12-11T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2026-12-18T16:30:00.000Z",
+      "end": "2026-12-18T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
       "id": "20261224_tmbgi0ljkl27i1l34lnddrq60c@google.com",
       "title": "Christmas Eve",
       "start": "2026-12-24T07:00:00.000Z",
@@ -112,6 +202,16 @@
       "calendar": "Holidays in United States",
       "color": "#C9A227",
       "location": ""
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2026-12-25T16:30:00.000Z",
+      "end": "2026-12-25T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
     },
     {
       "id": "20261231_0kjsbhff7mdoqg6fl40ufhqql4@google.com",
@@ -134,6 +234,36 @@
       "location": ""
     },
     {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-01-01T16:30:00.000Z",
+      "end": "2027-01-01T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-01-08T16:30:00.000Z",
+      "end": "2027-01-08T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-01-15T16:30:00.000Z",
+      "end": "2027-01-15T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
       "id": "20270118_uidgniu6vbjkrspdstmsqhleb8@google.com",
       "title": "Martin Luther King Jr. Day",
       "start": "2027-01-18T07:00:00.000Z",
@@ -142,6 +272,46 @@
       "calendar": "Holidays in United States",
       "color": "#C9A227",
       "location": ""
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-01-22T16:30:00.000Z",
+      "end": "2027-01-22T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-01-29T16:30:00.000Z",
+      "end": "2027-01-29T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-02-05T16:30:00.000Z",
+      "end": "2027-02-05T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-02-12T16:30:00.000Z",
+      "end": "2027-02-12T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
     },
     {
       "id": "20270214_74gpuuihq1eo3rc91b2uplpuok@google.com",
@@ -164,6 +334,46 @@
       "location": ""
     },
     {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-02-19T16:30:00.000Z",
+      "end": "2027-02-19T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-02-26T16:30:00.000Z",
+      "end": "2027-02-26T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-03-05T16:30:00.000Z",
+      "end": "2027-03-05T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-03-12T16:30:00.000Z",
+      "end": "2027-03-12T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
       "id": "20270314_3je881f1co5iuen9i4drfr9nsc@google.com",
       "title": "Daylight Saving Time starts",
       "start": "2027-03-14T07:00:00.000Z",
@@ -182,6 +392,26 @@
       "calendar": "Holidays in United States",
       "color": "#C9A227",
       "location": ""
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-03-19T16:30:00.000Z",
+      "end": "2027-03-19T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-03-26T16:30:00.000Z",
+      "end": "2027-03-26T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
     },
     {
       "id": "20270328_3nqofeol1nv7matfa4j3qbbrek@google.com",
@@ -204,6 +434,26 @@
       "location": ""
     },
     {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-04-02T16:30:00.000Z",
+      "end": "2027-04-02T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-04-09T16:30:00.000Z",
+      "end": "2027-04-09T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
       "id": "20270415_e5n7remnckfnfebua7claa6atk@google.com",
       "title": "Tax Day",
       "start": "2027-04-15T07:00:00.000Z",
@@ -212,6 +462,36 @@
       "calendar": "Holidays in United States",
       "color": "#C9A227",
       "location": ""
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-04-16T16:30:00.000Z",
+      "end": "2027-04-16T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-04-23T16:30:00.000Z",
+      "end": "2027-04-23T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-04-30T16:30:00.000Z",
+      "end": "2027-04-30T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
     },
     {
       "id": "20270505_1vgefrjsle5qlpl0h0aurksol8@google.com",
@@ -224,6 +504,16 @@
       "location": ""
     },
     {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-05-07T16:30:00.000Z",
+      "end": "2027-05-07T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
       "id": "20270509_rrq3orpog9sh5j5b43kh8tf88k@google.com",
       "title": "Mother's Day",
       "start": "2027-05-09T07:00:00.000Z",
@@ -234,6 +524,36 @@
       "location": ""
     },
     {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-05-14T16:30:00.000Z",
+      "end": "2027-05-14T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-05-21T16:30:00.000Z",
+      "end": "2027-05-21T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-05-28T16:30:00.000Z",
+      "end": "2027-05-28T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
       "id": "20270531_a8d95ep62fnouqln2idnfprgfc@google.com",
       "title": "Memorial Day",
       "start": "2027-05-31T07:00:00.000Z",
@@ -242,6 +562,26 @@
       "calendar": "Holidays in United States",
       "color": "#C9A227",
       "location": ""
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-06-04T16:30:00.000Z",
+      "end": "2027-06-04T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-06-11T16:30:00.000Z",
+      "end": "2027-06-11T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
     },
     {
       "id": "20270614_7j3h402oqdnve3hjfbclt8fde0@google.com",
@@ -264,6 +604,16 @@
       "location": ""
     },
     {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-06-18T16:30:00.000Z",
+      "end": "2027-06-18T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
       "id": "20270619_i9r0psrvfpqolls557edeqp368@google.com",
       "title": "Juneteenth",
       "start": "2027-06-19T07:00:00.000Z",
@@ -282,6 +632,26 @@
       "calendar": "Holidays in United States",
       "color": "#C9A227",
       "location": ""
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-06-25T16:30:00.000Z",
+      "end": "2027-06-25T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-07-02T16:30:00.000Z",
+      "end": "2027-07-02T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
     },
     {
       "id": "20270704_b9l6c6astdpntsbe9krl7ionb8@google.com",
@@ -304,6 +674,96 @@
       "location": ""
     },
     {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-07-09T16:30:00.000Z",
+      "end": "2027-07-09T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-07-16T16:30:00.000Z",
+      "end": "2027-07-16T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-07-23T16:30:00.000Z",
+      "end": "2027-07-23T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-07-30T16:30:00.000Z",
+      "end": "2027-07-30T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-08-06T16:30:00.000Z",
+      "end": "2027-08-06T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-08-13T16:30:00.000Z",
+      "end": "2027-08-13T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-08-20T16:30:00.000Z",
+      "end": "2027-08-20T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-08-27T16:30:00.000Z",
+      "end": "2027-08-27T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-09-03T16:30:00.000Z",
+      "end": "2027-09-03T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
       "id": "20270906_o0fp6osmkvm13bo00clcd54g6o@google.com",
       "title": "Labor Day",
       "start": "2027-09-06T07:00:00.000Z",
@@ -312,6 +772,36 @@
       "calendar": "Holidays in United States",
       "color": "#C9A227",
       "location": ""
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-09-10T16:30:00.000Z",
+      "end": "2027-09-10T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-09-17T16:30:00.000Z",
+      "end": "2027-09-17T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-09-24T16:30:00.000Z",
+      "end": "2027-09-24T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "admin@gvrtaichiarts.com",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
     }
   ]
 }
