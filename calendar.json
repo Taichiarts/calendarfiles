@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T13:41:56.905Z",
+  "updated": "2026-10-27T13:57:01.262Z",
   "start": "2026-09-01T07:00:00.000Z",
   "end": "2027-10-01T07:00:00.000Z",
   "calendars": [
@@ -10,6 +10,22 @@
     {
       "name": "Qi Gong",
       "color": "#2A9D8F"
+    },
+    {
+      "name": "Intermediate Tai Chi Yang Style 24 Form - Kathy",
+      "color": "#C65D57"
+    },
+    {
+      "name": "Beginners Preparation Yang Style 24 Form",
+      "color": "#7A7A7A"
+    },
+    {
+      "name": "Beginners Tai Chi Class, Yang Style 24 Form",
+      "color": "#6A8EAE"
+    },
+    {
+      "name": "Advanced Tai Chi Yang Style - Marty",
+      "color": "#A05A7D"
     }
   ],
   "events": [
