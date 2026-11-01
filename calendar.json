@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-01T06:57:05.629Z",
-  "start": "2026-09-01T07:00:00.000Z",
-  "end": "2027-10-01T07:00:00.000Z",
+  "updated": "2026-11-01T07:13:27.619Z",
+  "start": "2026-10-01T07:00:00.000Z",
+  "end": "2027-11-01T07:00:00.000Z",
   "calendars": [
     {
       "name": "Holidays in United States",
@@ -45,16 +45,6 @@
     }
   ],
   "events": [
-    {
-      "id": "20260907_3iv7l7ja8ses3smgpgh5fqearo@google.com",
-      "title": "Labor Day",
-      "start": "2026-09-07T07:00:00.000Z",
-      "end": "2026-09-08T07:00:00.000Z",
-      "allDay": true,
-      "calendar": "Holidays in United States",
-      "color": "#C9A227",
-      "location": ""
-    },
     {
       "id": "20261012_ulmd1kltcra97jfi42oujqdnms@google.com",
       "title": "Columbus Day",
@@ -4754,6 +4744,396 @@
       "calendar": "Intermediate Yang Style 10 Form - Don",
       "color": "#B07D3C",
       "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l_R20261030T163000@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-10-01T16:30:00.000Z",
+      "end": "2027-10-01T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Qi Gong - Karen",
+      "color": "#A05A7D",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "2n8483o92t633kjtmbbimi7063@google.com",
+      "title": "Beginners Preparation for Tai Chi Yang Style ",
+      "start": "2027-10-04T18:30:00.000Z",
+      "end": "2027-10-04T19:30:00.000Z",
+      "allDay": false,
+      "calendar": "Beginners Preparation Yang Style 24 Form",
+      "color": "#6B8E23",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol #107 - D, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "0002ssv6lksotvpcqubm4qfdlb@google.com",
+      "title": "New Member Orientation ",
+      "start": "2027-10-04T19:30:00.000Z",
+      "end": "2027-10-04T20:00:00.000Z",
+      "allDay": false,
+      "calendar": "New Member Orientation - Dean & Karen",
+      "color": "#A05A7D",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "3igp2d14cil115ioafodeo0ciq_R20261102T200000@google.com",
+      "title": "Beginners Tai Chi Class, Yang Style 24 Form ",
+      "start": "2027-10-04T20:00:00.000Z",
+      "end": "2027-10-04T21:00:00.000Z",
+      "allDay": false,
+      "calendar": "Beginners Preparation Yang Style 24 Form",
+      "color": "#6B8E23",
+      "location": ""
+    },
+    {
+      "id": "5d3sl9p2fah2g1d8s7b3b124cc@google.com",
+      "title": "Intermediate Tai Chi Yang 24 Form - Kathy",
+      "start": "2027-10-04T21:00:00.000Z",
+      "end": "2027-10-04T22:00:00.000Z",
+      "allDay": false,
+      "calendar": "Intermediate Tai Chi Yang Style 24 Form - Kathy",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "7k7q3up0vsua3mqt279j6pkvgm_R20261103T163000@google.com",
+      "title": "Advanced Tai Chi- Marty",
+      "start": "2027-10-05T16:30:00.000Z",
+      "end": "2027-10-05T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Advanced Tai Chi Yang Style - Marty",
+      "color": "#6A8EAE",
+      "location": "Santa Rita Springs Recreation Center, 921 W Via Rio Fuerte, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "7jt8f0do2r1soh63p1l6unj718@google.com",
+      "title": "Intermediate Tai Chi Yang Style 24 Form ",
+      "start": "2027-10-06T21:00:00.000Z",
+      "end": "2027-10-06T22:00:00.000Z",
+      "allDay": false,
+      "calendar": "Intermediate Tai Chi, Yang Style 24 Form- Christine",
+      "color": "#C65D57",
+      "location": "Santa Rita Springs Recreation Center, 921 W Via Rio Fuerte, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1d2f9lfqv6kcplok2v7sipn6ph@google.com",
+      "title": "Beginners Tai Chi Class, Yang Style 24 Form ",
+      "start": "2027-10-06T22:00:00.000Z",
+      "end": "2027-10-06T23:00:00.000Z",
+      "allDay": false,
+      "calendar": "Beginners Tai Chi Yang Style 24 Form - Christine",
+      "color": "#7A7A7A",
+      "location": "Santa Rita Springs Recreation Center, 921 W Via Rio Fuerte, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "4se1i2prnjcs35u5mrn8k2vnt4@google.com",
+      "title": "Intermediate Yang Style 10 Form ",
+      "start": "2027-10-07T17:00:00.000Z",
+      "end": "2027-10-07T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Intermediate Yang Style 10 Form - Don",
+      "color": "#B07D3C",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l_R20261030T163000@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-10-08T16:30:00.000Z",
+      "end": "2027-10-08T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Qi Gong - Karen",
+      "color": "#A05A7D",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "20271011_ot5stoash0pqs54jffmku8ssvg@google.com",
+      "title": "Columbus Day",
+      "start": "2027-10-11T07:00:00.000Z",
+      "end": "2027-10-12T07:00:00.000Z",
+      "allDay": true,
+      "calendar": "Holidays in United States",
+      "color": "#C9A227",
+      "location": ""
+    },
+    {
+      "id": "2n8483o92t633kjtmbbimi7063@google.com",
+      "title": "Beginners Preparation for Tai Chi Yang Style ",
+      "start": "2027-10-11T18:30:00.000Z",
+      "end": "2027-10-11T19:30:00.000Z",
+      "allDay": false,
+      "calendar": "Beginners Preparation Yang Style 24 Form",
+      "color": "#6B8E23",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol #107 - D, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "0002ssv6lksotvpcqubm4qfdlb@google.com",
+      "title": "New Member Orientation ",
+      "start": "2027-10-11T19:30:00.000Z",
+      "end": "2027-10-11T20:00:00.000Z",
+      "allDay": false,
+      "calendar": "New Member Orientation - Dean & Karen",
+      "color": "#A05A7D",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "3igp2d14cil115ioafodeo0ciq_R20261102T200000@google.com",
+      "title": "Beginners Tai Chi Class, Yang Style 24 Form ",
+      "start": "2027-10-11T20:00:00.000Z",
+      "end": "2027-10-11T21:00:00.000Z",
+      "allDay": false,
+      "calendar": "Beginners Preparation Yang Style 24 Form",
+      "color": "#6B8E23",
+      "location": ""
+    },
+    {
+      "id": "5d3sl9p2fah2g1d8s7b3b124cc@google.com",
+      "title": "Intermediate Tai Chi Yang 24 Form - Kathy",
+      "start": "2027-10-11T21:00:00.000Z",
+      "end": "2027-10-11T22:00:00.000Z",
+      "allDay": false,
+      "calendar": "Intermediate Tai Chi Yang Style 24 Form - Kathy",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "7k7q3up0vsua3mqt279j6pkvgm_R20261103T163000@google.com",
+      "title": "Advanced Tai Chi- Marty",
+      "start": "2027-10-12T16:30:00.000Z",
+      "end": "2027-10-12T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Advanced Tai Chi Yang Style - Marty",
+      "color": "#6A8EAE",
+      "location": "Santa Rita Springs Recreation Center, 921 W Via Rio Fuerte, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "7jt8f0do2r1soh63p1l6unj718@google.com",
+      "title": "Intermediate Tai Chi Yang Style 24 Form ",
+      "start": "2027-10-13T21:00:00.000Z",
+      "end": "2027-10-13T22:00:00.000Z",
+      "allDay": false,
+      "calendar": "Intermediate Tai Chi, Yang Style 24 Form- Christine",
+      "color": "#C65D57",
+      "location": "Santa Rita Springs Recreation Center, 921 W Via Rio Fuerte, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1d2f9lfqv6kcplok2v7sipn6ph@google.com",
+      "title": "Beginners Tai Chi Class, Yang Style 24 Form ",
+      "start": "2027-10-13T22:00:00.000Z",
+      "end": "2027-10-13T23:00:00.000Z",
+      "allDay": false,
+      "calendar": "Beginners Tai Chi Yang Style 24 Form - Christine",
+      "color": "#7A7A7A",
+      "location": "Santa Rita Springs Recreation Center, 921 W Via Rio Fuerte, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "4se1i2prnjcs35u5mrn8k2vnt4@google.com",
+      "title": "Intermediate Yang Style 10 Form ",
+      "start": "2027-10-14T17:00:00.000Z",
+      "end": "2027-10-14T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Intermediate Yang Style 10 Form - Don",
+      "color": "#B07D3C",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l_R20261030T163000@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-10-15T16:30:00.000Z",
+      "end": "2027-10-15T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Qi Gong - Karen",
+      "color": "#A05A7D",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "2n8483o92t633kjtmbbimi7063@google.com",
+      "title": "Beginners Preparation for Tai Chi Yang Style ",
+      "start": "2027-10-18T18:30:00.000Z",
+      "end": "2027-10-18T19:30:00.000Z",
+      "allDay": false,
+      "calendar": "Beginners Preparation Yang Style 24 Form",
+      "color": "#6B8E23",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol #107 - D, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "0002ssv6lksotvpcqubm4qfdlb@google.com",
+      "title": "New Member Orientation ",
+      "start": "2027-10-18T19:30:00.000Z",
+      "end": "2027-10-18T20:00:00.000Z",
+      "allDay": false,
+      "calendar": "New Member Orientation - Dean & Karen",
+      "color": "#A05A7D",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "3igp2d14cil115ioafodeo0ciq_R20261102T200000@google.com",
+      "title": "Beginners Tai Chi Class, Yang Style 24 Form ",
+      "start": "2027-10-18T20:00:00.000Z",
+      "end": "2027-10-18T21:00:00.000Z",
+      "allDay": false,
+      "calendar": "Beginners Preparation Yang Style 24 Form",
+      "color": "#6B8E23",
+      "location": ""
+    },
+    {
+      "id": "5d3sl9p2fah2g1d8s7b3b124cc@google.com",
+      "title": "Intermediate Tai Chi Yang 24 Form - Kathy",
+      "start": "2027-10-18T21:00:00.000Z",
+      "end": "2027-10-18T22:00:00.000Z",
+      "allDay": false,
+      "calendar": "Intermediate Tai Chi Yang Style 24 Form - Kathy",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "7k7q3up0vsua3mqt279j6pkvgm_R20261103T163000@google.com",
+      "title": "Advanced Tai Chi- Marty",
+      "start": "2027-10-19T16:30:00.000Z",
+      "end": "2027-10-19T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Advanced Tai Chi Yang Style - Marty",
+      "color": "#6A8EAE",
+      "location": "Santa Rita Springs Recreation Center, 921 W Via Rio Fuerte, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "7jt8f0do2r1soh63p1l6unj718@google.com",
+      "title": "Intermediate Tai Chi Yang Style 24 Form ",
+      "start": "2027-10-20T21:00:00.000Z",
+      "end": "2027-10-20T22:00:00.000Z",
+      "allDay": false,
+      "calendar": "Intermediate Tai Chi, Yang Style 24 Form- Christine",
+      "color": "#C65D57",
+      "location": "Santa Rita Springs Recreation Center, 921 W Via Rio Fuerte, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1d2f9lfqv6kcplok2v7sipn6ph@google.com",
+      "title": "Beginners Tai Chi Class, Yang Style 24 Form ",
+      "start": "2027-10-20T22:00:00.000Z",
+      "end": "2027-10-20T23:00:00.000Z",
+      "allDay": false,
+      "calendar": "Beginners Tai Chi Yang Style 24 Form - Christine",
+      "color": "#7A7A7A",
+      "location": "Santa Rita Springs Recreation Center, 921 W Via Rio Fuerte, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "4se1i2prnjcs35u5mrn8k2vnt4@google.com",
+      "title": "Intermediate Yang Style 10 Form ",
+      "start": "2027-10-21T17:00:00.000Z",
+      "end": "2027-10-21T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Intermediate Yang Style 10 Form - Don",
+      "color": "#B07D3C",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l_R20261030T163000@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-10-22T16:30:00.000Z",
+      "end": "2027-10-22T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Qi Gong - Karen",
+      "color": "#A05A7D",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "2n8483o92t633kjtmbbimi7063@google.com",
+      "title": "Beginners Preparation for Tai Chi Yang Style ",
+      "start": "2027-10-25T18:30:00.000Z",
+      "end": "2027-10-25T19:30:00.000Z",
+      "allDay": false,
+      "calendar": "Beginners Preparation Yang Style 24 Form",
+      "color": "#6B8E23",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol #107 - D, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "0002ssv6lksotvpcqubm4qfdlb@google.com",
+      "title": "New Member Orientation ",
+      "start": "2027-10-25T19:30:00.000Z",
+      "end": "2027-10-25T20:00:00.000Z",
+      "allDay": false,
+      "calendar": "New Member Orientation - Dean & Karen",
+      "color": "#A05A7D",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "3igp2d14cil115ioafodeo0ciq_R20261102T200000@google.com",
+      "title": "Beginners Tai Chi Class, Yang Style 24 Form ",
+      "start": "2027-10-25T20:00:00.000Z",
+      "end": "2027-10-25T21:00:00.000Z",
+      "allDay": false,
+      "calendar": "Beginners Preparation Yang Style 24 Form",
+      "color": "#6B8E23",
+      "location": ""
+    },
+    {
+      "id": "5d3sl9p2fah2g1d8s7b3b124cc@google.com",
+      "title": "Intermediate Tai Chi Yang 24 Form - Kathy",
+      "start": "2027-10-25T21:00:00.000Z",
+      "end": "2027-10-25T22:00:00.000Z",
+      "allDay": false,
+      "calendar": "Intermediate Tai Chi Yang Style 24 Form - Kathy",
+      "color": "#2A9D8F",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "7k7q3up0vsua3mqt279j6pkvgm_R20261103T163000@google.com",
+      "title": "Advanced Tai Chi- Marty",
+      "start": "2027-10-26T16:30:00.000Z",
+      "end": "2027-10-26T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Advanced Tai Chi Yang Style - Marty",
+      "color": "#6A8EAE",
+      "location": "Santa Rita Springs Recreation Center, 921 W Via Rio Fuerte, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "7jt8f0do2r1soh63p1l6unj718@google.com",
+      "title": "Intermediate Tai Chi Yang Style 24 Form ",
+      "start": "2027-10-27T21:00:00.000Z",
+      "end": "2027-10-27T22:00:00.000Z",
+      "allDay": false,
+      "calendar": "Intermediate Tai Chi, Yang Style 24 Form- Christine",
+      "color": "#C65D57",
+      "location": "Santa Rita Springs Recreation Center, 921 W Via Rio Fuerte, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "1d2f9lfqv6kcplok2v7sipn6ph@google.com",
+      "title": "Beginners Tai Chi Class, Yang Style 24 Form ",
+      "start": "2027-10-27T22:00:00.000Z",
+      "end": "2027-10-27T23:00:00.000Z",
+      "allDay": false,
+      "calendar": "Beginners Tai Chi Yang Style 24 Form - Christine",
+      "color": "#7A7A7A",
+      "location": "Santa Rita Springs Recreation Center, 921 W Via Rio Fuerte, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "4se1i2prnjcs35u5mrn8k2vnt4@google.com",
+      "title": "Intermediate Yang Style 10 Form ",
+      "start": "2027-10-28T17:00:00.000Z",
+      "end": "2027-10-28T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Intermediate Yang Style 10 Form - Don",
+      "color": "#B07D3C",
+      "location": "Green Valley Recreation Desert Hills Center, 2980 S Camino Del Sol, Green Valley, AZ 85622, USA"
+    },
+    {
+      "id": "1t0c6j33ahiuuq4cfqvae2vp7l_R20261030T163000@google.com",
+      "title": "Qi Gong ",
+      "start": "2027-10-29T16:30:00.000Z",
+      "end": "2027-10-29T18:00:00.000Z",
+      "allDay": false,
+      "calendar": "Qi Gong - Karen",
+      "color": "#A05A7D",
+      "location": "Green Valley Recreation Las Campanas Center, 565 W Belltower Dr, Green Valley, AZ 85614, USA"
+    },
+    {
+      "id": "20271031_n497nmt3a3rnsclfffs5e8o1ps@google.com",
+      "title": "Halloween",
+      "start": "2027-10-31T07:00:00.000Z",
+      "end": "2027-11-01T07:00:00.000Z",
+      "allDay": true,
+      "calendar": "Holidays in United States",
+      "color": "#C9A227",
+      "location": ""
     }
   ]
 }
