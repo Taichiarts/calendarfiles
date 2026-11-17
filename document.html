@@ -231,7 +231,28 @@
         message.style.display = "none";
         frame.style.display = "block";
 
-        frame.srcdoc = addHeightReporter(data.html);
+        frame.srcdoc = addHeightReporter(
+        data.html.replace(
+          /<\/style>/i,
+          `
+            ul, ol {
+              margin-top: 0 !important;
+              margin-bottom: 0 !important;
+            }
+      
+            li {
+              margin-top: 0 !important;
+              margin-bottom: 0 !important;
+            }
+      
+            li p {
+              margin-top: 0 !important;
+              margin-bottom: 0 !important;
+            }
+          </style>
+          `
+        )
+      );
 
       })
 
