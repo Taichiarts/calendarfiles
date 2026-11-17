@@ -129,6 +129,14 @@ function addHeightReporter(html) {
 
     const displayStyles = `
       <style>
+
+      /* Make the document background transparent */
+        html,
+        body,
+        body.doc-content {
+          background-color: transparent !important;
+        }
+    
         /* Preserve the original Google Docs page dimensions */
         body.doc-content {
           box-sizing: content-box !important;
