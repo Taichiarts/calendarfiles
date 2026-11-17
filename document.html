@@ -124,44 +124,82 @@
      * It reports the document height to this page.
      */
 
-    function addHeightReporter(html) {
+   
+function addHeightReporter(html) {
 
-      const reporter = `
-        <script>
-          function reportDocumentHeight() {
-            const height = Math.max(
-              document.body.scrollHeight,
-              document.documentElement.scrollHeight
-            );
-
-            parent.postMessage({
-              type: "documentHeight",
-              height: height
-            }, "*");
+    const displayStyles = `
+      <style>
+        /* Preserve the original Google Docs page dimensions */
+        body.doc-content {
+          box-sizing: content-box !important;
+          width: 468pt !important;
+          max-width: 468pt !important;
+          margin: 0 auto !important;
+        }
+  
+        /* Make the document readable on smaller screens */
+        @media screen and (max-width: 700px) {
+          body.doc-content {
+            box-sizing: border-box !important;
+            width: 100% !important;
+            max-width: 100% !important;
+            padding: 24px !important;
+            margin: 0 !important;
           }
-
-          window.addEventListener("load", reportDocumentHeight);
-          window.addEventListener("resize", reportDocumentHeight);
-
-          if (window.ResizeObserver) {
-            new ResizeObserver(reportDocumentHeight)
-              .observe(document.body);
-          }
-
-          setTimeout(reportDocumentHeight, 300);
-          setTimeout(reportDocumentHeight, 1000);
-        <\/script>
-      `;
-
-      if (/<\/body>/i.test(html)) {
-        return html.replace(
-          /<\/body>/i,
-          reporter + "</body>"
-        );
-      }
-
-      return html + reporter;
+        }
+      </style>
+    `;
+  
+    const reporter = `
+      <script>
+        function reportDocumentHeight() {
+          const height = Math.max(
+            document.body.scrollHeight,
+            document.documentElement.scrollHeight
+          );
+  
+          parent.postMessage({
+            type: "documentHeight",
+            height: height
+          }, "*");
+        }
+  
+        window.addEventListener("load", reportDocumentHeight);
+        window.addEventListener("resize", reportDocumentHeight);
+  
+        if (window.ResizeObserver) {
+          new ResizeObserver(reportDocumentHeight)
+            .observe(document.body);
+        }
+  
+        setTimeout(reportDocumentHeight, 300);
+        setTimeout(reportDocumentHeight, 1000);
+      <\/script>
+    `;
+  
+    // Insert display adjustments without altering
+    // the original Google Docs formatting.
+    if (/<\/head>/i.test(html)) {
+      html = html.replace(
+        /<\/head>/i,
+        displayStyles + "</head>"
+      );
+    } else {
+      html = displayStyles + html;
     }
+  
+    // Add the automatic height reporting.
+    if (/<\/body>/i.test(html)) {
+      html = html.replace(
+        /<\/body>/i,
+        reporter + "</body>"
+      );
+    } else {
+      html += reporter;
+    }
+  
+    return html;
+  }
 
 
     /*
