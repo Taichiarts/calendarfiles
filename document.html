@@ -136,6 +136,12 @@ function addHeightReporter(html) {
           max-width: 468pt !important;
           margin: 0 auto !important;
         }
+        
+        /* Restore spacing between a bullet list and
+           the paragraph immediately following it */
+        ul + p {
+          padding-top: 12pt !important;
+        }
   
         /* Make the document readable on smaller screens */
         @media screen and (max-width: 700px) {
