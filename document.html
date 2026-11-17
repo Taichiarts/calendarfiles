@@ -1,1 +1,271 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Information</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: transparent;
+      color: #333;
+    }
+
+    .document-container {
+      width: 100%;
+      max-width: none;
+      margin: 0 auto;
+      padding: 8px;
+    }
+
+    .document-title {
+      margin: 0 0 8px 0;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .document-updated {
+      margin-bottom: 20px;
+      color: #777;
+      font-size: 12px;
+    }
+
+    #documentFrame {
+      display: block;
+      width: 100%;
+      min-height: 600px;
+      border: none;
+      background: transparent;
+    }
+
+    .document-message {
+      padding: 30px 0;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .document-container {
+        padding: 18px;
+      }
+
+      .document-title {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="document-container">
+
+    <h1 class="document-title" id="documentTitle">
+      Website Information
+    </h1>
+
+    <div class="document-updated" id="documentUpdated"></div>
+
+    <div id="documentMessage" class="document-message">
+      Loading information...
+    </div>
+
+    <iframe
+      id="documentFrame"
+      title="Published information"
+      sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox"
+      style="display:none;">
+    </iframe>
+
+  </div>
+
+  <script>
+
+    const AUTO_REFRESH_INTERVAL = 30 * 1000;
+
+    let lastContentHash = null;
+
+    const frame = document.getElementById("documentFrame");
+    const message = document.getElementById("documentMessage");
+    const titleElement = document.getElementById("documentTitle");
+    const updatedElement = document.getElementById("documentUpdated");
+
+
+    /*
+     * Receive the document height from the iframe.
+     */
+
+    window.addEventListener("message", function(event) {
+
+      if (event.source !== frame.contentWindow) {
+        return;
+      }
+
+      if (
+        event.data &&
+        event.data.type === "documentHeight" &&
+        Number.isFinite(event.data.height)
+      ) {
+        frame.style.height =
+          Math.max(400, event.data.height) + "px";
+      }
+
+    });
+
+
+    /*
+     * Add a small script to the exported Google Docs HTML.
+     * It reports the document height to this page.
+     */
+
+    function addHeightReporter(html) {
+
+      const reporter = `
+        <script>
+          function reportDocumentHeight() {
+            const height = Math.max(
+              document.body.scrollHeight,
+              document.documentElement.scrollHeight
+            );
+
+            parent.postMessage({
+              type: "documentHeight",
+              height: height
+            }, "*");
+          }
+
+          window.addEventListener("load", reportDocumentHeight);
+          window.addEventListener("resize", reportDocumentHeight);
+
+          if (window.ResizeObserver) {
+            new ResizeObserver(reportDocumentHeight)
+              .observe(document.body);
+          }
+
+          setTimeout(reportDocumentHeight, 300);
+          setTimeout(reportDocumentHeight, 1000);
+        <\/script>
+      `;
+
+      if (/<\/body>/i.test(html)) {
+        return html.replace(
+          /<\/body>/i,
+          reporter + "</body>"
+        );
+      }
+
+      return html + reporter;
+    }
+
+
+    /*
+     * Load the published Google Docs content.
+     */
+
+    function loadDocument() {
+
+      fetch(
+        "document.json?refresh=" + Date.now(),
+        {
+          cache: "no-store"
+        }
+      )
+
+      .then(function(response) {
+
+        if (!response.ok) {
+          throw new Error(
+            "Unable to load document.json"
+          );
+        }
+
+        return response.json();
+
+      })
+
+      .then(function(data) {
+
+        if (!data || !data.html) {
+          throw new Error(
+            "The published document is empty or invalid."
+          );
+        }
+
+        /*
+         * Avoid rebuilding the iframe when content
+         * has not changed.
+         */
+
+        if (data.contentHash && data.contentHash === lastContentHash) {
+          return;
+        }
+
+        lastContentHash = data.contentHash || null;
+
+        titleElement.textContent =
+          data.title || "Website Information";
+
+        const updated =
+          data.updated || data.lastUpdated;
+
+        if (updated) {
+
+          const date = new Date(updated);
+
+          updatedElement.textContent =
+            "Last updated: " +
+            date.toLocaleString();
+
+        } else {
+
+          updatedElement.textContent = "";
+
+        }
+
+        message.style.display = "none";
+        frame.style.display = "block";
+
+        frame.srcdoc = addHeightReporter(data.html);
+
+      })
+
+      .catch(function(error) {
+
+        console.error(error);
+
+        if (!lastContentHash) {
+          message.textContent =
+            "Unable to load the information. Please try again later.";
+        }
+
+      });
+
+    }
+
+
+    /*
+     * Initial load.
+     */
+
+    loadDocument();
+
+
+    /*
+     * Check for published changes every 30 seconds.
+     */
+
+    setInterval(function() {
+      loadDocument();
+    }, AUTO_REFRESH_INTERVAL);
+
+  </script>
+
+</body>
+</html>
+
