@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 8px;
+      color: #333;
+      background: transparent;
+    }
+
+    .control {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 12px 16px;
+    }
+
+    #status {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    button {
+      padding: 11px 20px;
+      font-size: 14px;
+      font-weight: bold;
+      border: 0;
+      border-radius: 5px;
+      background: #2463a6;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:disabled {
+      background: #999;
+      cursor: not-allowed;
+    }
+
+    #message {
+      width: 100%;
+      font-size: 13px;
+    }
+
+    @media (max-width: 450px) {
+      .control {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="control">
+
+    <div id="status">Checking authorization...</div>
+
+    <button id="publishButton"
+      onclick="publishDocument()"
+      disabled>
+      Publish Document
+    </button>
+
+    <div id="message"></div>
+
+  </div>
+
+  <script>
+
+    function refreshStatus() {
+
+      google.script.run
+
+        .withSuccessHandler(function(result) {
+
+          if (!result || !result.authorized) {
+            document.body.style.display = "none";
+            return;
+          }
+
+          // Notify the public document page that
+          // the authorized publishing control is ready.
+          parent.postMessage({
+            type: "publishControlReady"
+          }, "*");
+
+          const status =
+            document.getElementById("status");
+
+          const button =
+            document.getElementById("publishButton");
+
+          if (result.status === "pending") {
+
+            status.textContent = "PUBLICATION PENDING";
+
+            button.disabled = true;
+            button.textContent = "Publication Pending";
+
+          } else {
+
+            status.textContent = "DRAFT — Not yet published";
+
+            button.disabled = false;
+            button.textContent = "Publish Document";
+
+          }
+
+        })
+
+        .withFailureHandler(showError)
+
+        .getDocumentPublishStatus();
+
+    }
+
+
+    function publishDocument() {
+
+      const button =
+        document.getElementById("publishButton");
+
+      const message =
+        document.getElementById("message");
+
+      button.disabled = true;
+      button.textContent = "Requesting...";
+
+      message.textContent = "";
+
+      google.script.run
+
+        .withSuccessHandler(function(result) {
+
+          message.textContent = result.message;
+
+          refreshStatus();
+
+        })
+
+        .withFailureHandler(function(error) {
+
+          showError(error);
+
+          refreshStatus();
+
+        })
+
+        .requestDocumentPublish();
+
+    }
+
+
+    function showError(error) {
+
+      document.getElementById("message").textContent =
+        "Error: " + error.message;
+
+    }
+
+
+    refreshStatus();
+
+    // Check periodically for publication completion.
+    setInterval(refreshStatus, 10000);
+
+  </script>
+
+</body>
+</html>
