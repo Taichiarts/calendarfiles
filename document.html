@@ -50,6 +50,15 @@
       color: #777;
     }
 
+    #publishControlFrame {
+      display: none;
+      width: 100%;
+      height: 125px;
+      border: none;
+      margin-bottom: 12px;
+      background: transparent;
+    }
+
     @media (max-width: 600px) {
       .document-container {
         padding: 18px;
@@ -65,6 +74,12 @@
 <body>
 
   <div class="document-container">
+
+    <iframe
+      id="publishControlFrame"
+      title="Document publishing control"
+      style="display:none;">
+    </iframe>
 
     <div id="documentMessage" class="document-message">
       Loading information...
@@ -88,16 +103,39 @@
     const frame = document.getElementById("documentFrame");
     const message = document.getElementById("documentMessage");
 
+    const publishControlFrame =
+      document.getElementById("publishControlFrame");
+    
+    // Your Apps Script web app deployment URL goes here.
+    const PUBLISH_CONTROL_URL =
+      "YOUR_APPS_SCRIPT_WEB_APP_URL?page=publish";
+    
+    publishControlFrame.src = PUBLISH_CONTROL_URL;
+
     /*
      * Receive the document height from the iframe.
      */
 
     window.addEventListener("message", function(event) {
 
+      // Message from the publishing control.
+      if (event.source === publishControlFrame.contentWindow) {
+    
+        if (
+          event.data &&
+          event.data.type === "publishControlReady"
+        ) {
+          publishControlFrame.style.display = "block";
+        }
+    
+        return;
+      }
+    
+      // Message from the published document.
       if (event.source !== frame.contentWindow) {
         return;
       }
-
+    
       if (
         event.data &&
         event.data.type === "documentHeight" &&
@@ -106,7 +144,7 @@
         frame.style.height =
           Math.max(400, event.data.height) + "px";
       }
-
+    
     });
 
 
