@@ -251,26 +251,6 @@ function addHeightReporter(html) {
 
         lastContentHash = data.contentHash || null;
 
-        titleElement.textContent =
-          data.title || "Website Information";
-
-        const updated =
-          data.updated || data.lastUpdated;
-
-        if (updated) {
-
-          const date = new Date(updated);
-
-          updatedElement.textContent =
-            "Last updated: " +
-            date.toLocaleString();
-
-        } else {
-
-          updatedElement.textContent = "";
-
-        }
-
         message.style.display = "none";
         frame.style.display = "block";
 
