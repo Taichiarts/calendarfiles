@@ -112,6 +112,14 @@
     
     publishControlFrame.src = PUBLISH_CONTROL_URL;
 
+    publishControlFrame.addEventListener("load", function() {
+    console.log("Publishing iframe loaded.");
+    });
+    
+    publishControlFrame.addEventListener("error", function() {
+      console.error("Publishing iframe failed to load.");
+    });
+
     /*
      * Receive the document height from the iframe.
      */
