@@ -1256,11 +1256,22 @@ function loadCalendarConfig(preservedSelections) {
      ========================================== */
 
   let currentDate = new Date();
-
-  let currentView = document.getElementById("viewSelect").value;
-
+  
+  const viewSelect = document.getElementById("viewSelect");
+  
+  // Default phones and tablets (900px or narrower) to Schedule.
+  // Wider screens continue to default to Month.
+  const isMobileOrTablet =
+    window.matchMedia("(max-width: 900px)").matches;
+  
+  if (isMobileOrTablet) {
+    viewSelect.value = "schedule";
+    document.getElementById("monthWeekdays").style.display = "none";
+  }
+  
+  let currentView = viewSelect.value;
+  
   const browserCalendarCache = {};
-
   const browserCalendarLoading = {};
 
   let browserCalendarConfigCache = null;
