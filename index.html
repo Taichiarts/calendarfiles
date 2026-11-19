@@ -1105,6 +1105,14 @@ function loadCalendarConfig(preservedSelections) {
         );
       }
 
+      /*
+       * Clear the previous event cache before rebuilding it.
+       * This prevents duplicate events during automatic refresh.
+       */
+      Object.keys(browserCalendarCache).forEach(function(key) {
+        delete browserCalendarCache[key];
+        });
+
       browserCalendarConfigCache =
         data.calendars;
 
