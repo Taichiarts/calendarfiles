@@ -1542,8 +1542,11 @@ function loadScheduleView() {
 
   const requiredMonths = [];
 
-  let scanDate =
-    new Date(startDate);
+  let scanDate = new Date(
+    startDate.getFullYear(),
+    startDate.getMonth(),
+    1
+  );
 
   while (scanDate < endDate) {
 
@@ -1642,8 +1645,11 @@ function renderScheduleEvents(startDate, endDate) {
   const scheduleEvents = [];
 
 
-  let scanDate =
-    new Date(startDate);
+  let scanDate = new Date(
+    startDate.getFullYear(),
+    startDate.getMonth(),
+    1
+  );
 
 
   while (scanDate < endDate) {
